@@ -224,7 +224,7 @@ All translation files could have the following content:
 }
 ```
 
-In our React component, with the i18n useTranslation Hook, we can load both namespaces and use them independently with a **namespace separator** (:). We can also next translations in JSON and reference them with the **nesting separator** (.):
+In our React component, with the i18n useTranslation Hook, we can load both namespaces and use them independently with a **namespace separator** (:). We can also nest translations in JSON and reference them with the **nesting separator** (.):
 
 ```javascript{5,9,11,13,15}
 import React from 'react';
